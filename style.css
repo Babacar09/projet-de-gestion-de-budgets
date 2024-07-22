@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.forms{
+    margin-left: 40%;
+    margin-top: 10%;
+
+}
+.autresdepense{
+    font-size: 25PX;
+    color: rgb(17, 155, 109);
+    margin-bottom:23PX ;
+}
+.titre{
+    margin-top: 30PX;
+    font-size: 20PX;
+    padding-top: 12PX;
+    text-transform: uppercase;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(7, 127, 87);
+    text-align: center;
+
+}
+.montitre{
+    height: 36PX;
+    width: 223PX;
+}
+.mondepense{
+    height: 36PX;
+    width: 223PX;
+}
+.valider{
+    height: 36PX;
+    width: 223PX;
+    background-color: rgb(7, 127, 87);
+    border:  rgb(7, 127, 87);
+    color: #FFF;
+}
+
+
+.monform{
+    margin-left: 45%;
+    margin-TOP: 10%;
+   
+
+
+}
+ h2{
+    font-size: 30PX;
+    color: green;
+} 
+.monform1{
+    margin-bottom: 92PX;
+}
+.montext1{
+    font-size: 23PX;
+    width: 200PX;
+}
+.container{
+    margin-top: 0;
+}
+.maTable{
+    border: #000, 1PX solid ;
+    margin-left: -124PX; 
+}
+.maTable1{
+    border: #000, 1PX solid ;
+    margin-left: 50PX; 
+}
+#table{
+    border: #000, 1PX solid ;
+    margin-left: -595PX;  
+    margin-top: 2PX;
+  
+}
+ th{
+    border: #000, 1PX solid ;  
+    background-color: rgb(3, 95, 100);
+   
+}
+th{
+    border: #000, 1PX solid ;   
+}
+tr{
+    border: #000, 1PX solid ;   
+   
+}
+td{
+    border: #000, 1PX solid ;   
+    height: 50PX;
+    width: 100PX;
+}
+.supp{
+    margin-left: 12PX;
+    width: 73PX;
+    height: 35PX;
+    background-color: rgb(197, 12, 12);
+    color: #fff;
+    border-radius: 10PX;
+    border: none;
+}
+
+.montant1{
+    font-size: 23PX;
+    width: 200PX;
+
+}
+#macontainer{
+    margin-top: 142PX;
+    margin-left: 649PX;
+}
+.container{
+    margin-left: 50%;
+    margin-top: 20%;
+}
+.valider{
+    font-size: 18PX;
+    width: 200PX;   
+    height: 33PX;
+    background-color: green;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.images{
+    align-items: center;
+    margin-left: 47%;
+
+}
+@media screen and (max-width: 600PX){
+    img.monimg{
+        margin-left: 426PX;
+        font-size: 290PX;
+        width: 178PX;
+    }
+    h2.gestion{
+        margin-left:-126PX;
+        font-size: 40PX;
+    }
+    .masection1,.mesblocks{
+        margin-right: -880px;
+    }
+    .cards1{
+        margin-right: -190PX;
+
+        align-items: center;
+    }
+    .cards2{
+        margin-right: -150PX;
+    }
+    .maTable{
+        width: 810PX;
+    }
+    .maTable1{
+        width: 810PX;
+    }
+    .addForm{
+        margin-left: 0PX;
+        width: 100%;
+        height: 800px;
+    }
+    form{
+        width: auto;
+        margin-left:0 ;
+        height: 100%;
+       
+    }
+    form, #montext{
+        width: auto;
+        margin-left:0 ;
+        height: 50PX;
+       font-size: 40PX;
+    }
+    form, #montant{
+        width: auto;
+        margin-left:0 ;
+        height: 50PX;
+       font-size: 40PX;
+    }
+    button, .validate{
+        font-size: 250PX;
+    }
+    #modalContent{
+        width: 50%;
+        height: 15%;
+        margin-left: 200PX;
+        margin-top: 230PX;
+    }
+   
+}
+.monimg{
+    width: 100PX;
+    margin-left: 46%;
+    border-radius: 50%;
+    margin-top: 12PX;
+}
+.mesblocks{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 32PX;
+
+}
+.cards1{
+    width: 250PX;
+    background-color: rgb(3, 95, 100);
+    padding-left: 0PX;
+    margin-left: 30PX;
+    box-shadow: 0 0.6em 1.2em rgba(2, 75, 67, 0.701);
+    border-radius: 10PX;
+ 
+}
+.cards2{
+    width: 250PX;
+    background-color: rgb(3, 95, 100);
+    padding-left: 0PX;
+    margin-left: 200PX;
+    box-shadow: 0 0.6em 1.2em rgba(2, 75, 67, 0.701);
+    border-radius: 10PX;
+
+}
+.cards3{
+    width: 250PX;
+    background-color: rgb(3, 95, 100);
+    padding-left: 0PX;
+    margin-left: 160PX;
+    box-shadow: 0 0.6em 1.2em rgba(2, 75, 67, 0.701);
+    border-radius: 10PX;
+}
+.budget{
+    background-color: rgb(3, 95, 100);
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 55PX;
+    margin-top: 38PX;
+    font-size: 33PX;
+}
+.monprix{
+    color: black;
+    width: 240PX;
+    margin-left: 5PX;
+    padding-top: 32PX;
+    
+}
+.count{
+    width: 240PX;
+    margin-left: 5PX;
+    padding-top: 32PX;
+}
+.soldes{
+    width: 240PX;
+    margin-left: 5PX;
+    padding-top: 32PX;
+}
+.prix{
+    background-color: #e5e5e5;
+    width: 250PX;
+    margin-left: 0PX;
+    height: 100PX;
+    
+   
+   
+}
+.masection1{
+    margin-left: -2%;
+    margin-top: 2PX;
+}
+th{
+    border: solid black 1PX;
+    padding: 15PX;
+    width: 240PX;
+    background-color: green;
+    color: #fff;
+}
+table{
+    border-collapse:collapse;
+    width: 1120PX;
+    
+    border: solid black 1PX;
+}
+tbody{
+    border: solid black 1PX; 
+    margin-left: 29PX;
+}
+.montr{
+    border: solid black 1PX; 
+}
+.montd{
+    border: solid black 1PX; 
+}
+th{
+    border: solid black 1PX; 
+}
+tr{
+    border: solid black 1PX;
+    
+}
+td{
+    border: solid black 1PX;
+    padding: 15PX;
+}
+.montitre{
+    text-align: left;
+    border: solid black 1PX;
+    text-transform: uppercase
+}
+.mon-tableaux{
+    border: solid black 1PX;
+}
+.btn{
+    width: 130PX;
+}
+.titre{
+    color: bisque;
+}
+.gestion{
+    text-align: center;
+    font-size: 27PX;
+    text-transform: uppercase;
+    color: rgb(3, 95, 100);
+}
+.montde{
+    color: rgb(241, 141, 17);
+}
+.fa-solid{
+    padding-left: 205PX;
+    cursor: pointer;
+    color:rgb(241, 141, 17) ;
+}
+.containerform{
+    margin-left: 563PX;
+    margin-top: 62PX;
+}
+#montext{
+    /* width: 180PX; */
+    height: 30PX;
+}
+#montant{
+    /* width: 180PX; */
+    height: 30PX;
+}
+#validate{
+    width: 180PX;
+    height: 30PX;
+    background-color:  rgb(3, 95, 100);
+    border: none;
+    cursor: pointer;
+    border-radius: 2PX;
+    color: #fff;
+    font-size: 17PX;
+}
+button{
+    color: #fff;
+    background-color: rgb(3, 95, 100);;
+    width: 199PX;
+    font-size: 23PX;
+    border: none;
+    height: 44PX;
+    border-radius: 10PX;
+    cursor: pointer;
+   
+
+}
+.mesbuttons{
+    display: inline-flex;
+    width: auto;
+    padding: 10PX;
+    padding-left: 10PX;
+    margin: 10PX;
+    border: none;
+}
+#monModif{
+    padding-left: 12PX;
+    margin-left: 12PX;
+}
+#monSupp{
+    color: #fff;
+    background-color: rgb(227, 17, 17);;
+    width: 199PX;
+    font-size: 23PX;
+    border: none;
+    height: 44PX;
+    border-radius: 10PX;
+    cursor: pointer; 
+}
+#monSupp1{
+    color: #fff;
+    background-color: rgb(227, 17, 17);;
+    width: 199PX;
+    font-size: 23PX;
+    border: none;
+    height: 44PX;
+    border-radius: 10PX;
+    cursor: pointer; 
+}
+#monSupp:hover{
+    background-color: rgb(112, 11, 11);
+    transition: 3s;
+}
+#monSupp1:hover{
+    background-color: rgb(112, 11, 11);
+    transition: 3s;
+}
+#monButton{
+    background-color: rgb(3, 95, 100);
+    width: 153PX;
+    font-size: 18PX;
+}
+.addForm{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100PX;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.addForm1{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100PX;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent{
+    background-color: #fefefe;
+     margin:auto; 
+    margin-top: 12px;
+     border: 1PX solid #888; 
+    width: 80%;
+}
+.modalContent1{
+    background-color: #fefefe;
+     margin:auto; 
+    margin-top: 12px;
+     border: 1PX solid #888; 
+    width: 80%;
+}
+.close{
+    color: #000;
+    float: right;
+    font-size: 25PX;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close1{
+    color: #000;
+    float: right;
+    font-size: 25PX;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover,
+.close:focus{
+    color: #000;
+    text-decoration: none;
+}
+.close1:hover,
+.close1:focus{
+    color: #000;
+    text-decoration: none;
+}
+.monInput{
+    width: 100%;
+    padding: 12PX 20PX;
+    margin: 8PX 0;
+    display: inline-block;
+    border: 1PX solid #ccc;
+    border-radius: 4PX;
+    box-sizing: border-box;
+}
+.monInput1{
+    width: 100%;
+    padding: 12PX 20PX;
+    margin: 8PX 0;
+    display: inline-block;
+    border: 1PX solid #ccc;
+    border-radius: 4PX;
+    box-sizing: border-box;
+}
+#validate{
+    background-color: #1c8d73;
+    border:  1PX solid #1c8d73;
+    color: white;
+    padding: 14PX 20PX;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%
+
+}
+
+#validate1{
+    background-color: #1c8d73;
+    border:  1PX solid #1c8d73;
+    color: white;
+    padding: 14PX 20PX;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%
+
+}
+#monSoldes{
+    font-size: 20PX;
+}
+#monprix1Depenses{
+    font-size: 20PX;
+}
+#monprixRevenus{
+    font-size: 20PX;
+}

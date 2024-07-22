@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/fe5d57f04e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="masection1">
+        <div class="image" id="image">
+            <img src="./IMG/png-clipart-budget-finance-budget-text-logo-thumbnail-removebg-preview.png" alt=""
+                class="monimg">
+            <h2 class="gestion">Gestion de budget</h2>
+        </div>
+        <div class="mesblocks">
+            <div class="cards1">
+                <P class="budget">Soldes</P>
+                <div class="prix">
+                    <p class="soldes" id="monSoldes"></p>
+                    <p id="notes"></p>
+                </div>
+            </div>
+
+            <div class="cards2">
+                <P class="budget">Depenses</P>
+                <div class="prix">
+                    <p class="monprix" id="monprix1Depenses"> </p>
+                    <p id="monNote"></p>
+                </div>
+            </div>
+            <div class="cards3">
+                <P class="budget">Revenus</P>
+                <div class="prix">
+                    <p class="count" id="monprixRevenus"></p>
+                    <p id="monNoteRevenu"></p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- <div class="containerform" >
+        <form action="">
+            <input type="text" name="montext" id="montext" placeholder="mettre le nom"><br><br>
+            <input type="number" name="montant" id="montant" placeholder="mettre le montant"><br><br>
+            <input type="button" class="validate" id="validate" value="valider">
+        </form>
+    </div> -->
+
+    <!-- <button type="button" id="AddButton" >Ajouter depense</button><br><br><br> -->
+
+    <div id="addForm" class="addForm">
+        <div class="modalContent" id="modalContent">
+            <span class="close">X</span>
+            <div class="form">
+                <form method="post">
+                    <input type="text" name="montext" id="montext" class="monInput" placeholder="mettre le nom" ><br><br>
+                    <input type="number" name="montant" id="montant" class="monInput" placeholder="mettre le montant" ><br><br>
+                    <button type="button" id="validate"  class="validate" >valider</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="addForm1" class="addForm1">
+        <div class="modalContent1" id="modalContent1">
+            <span class="close1">X</span>
+            <div class="form1">
+                <form method="post">
+                    <input type="text" name="montext1" id="montext1" class="monInput1" placeholder="mettre le nom"><br><br>
+                    <input type="number" name="montant1" id="montant1" class="monInput1" placeholder="mettre le montant"><br><br>
+                    <button type="button" id="validate1"  class="validate1" >valider</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="macontainer">
+        <table id="table" class="maTable">
+            <thead class="mythead">
+                <th>TITRE</th>
+                <th>MONTANT</th>
+                <th>ACTION</th>
+            </thead>
+            <tbody class="monTableBody">
+            </tbody>
+
+      
+
+                         
+
+            <tr class="montr">
+
+                <td class="montd">
+                    <!-- <a href="http://127.0.0.1:5502/depenses.html">
+                        <i class="fa-solid fa-circle-plus" id="moni"></i>
+                    </a> -->
+                    <button type="submit" id="AddButton" >Ajouter depenses</button>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+
+
+
+
+
+
+
+        </table> <br><br><br>
+
+
+
+
+
+
+
+
+        <!-- <table id="table" class="maTable">
+            <thead class="mythead">
+                <th>TITRE</th>
+                <th>MONTANT</th>
+                <th>ACTION</th>
+            </thead>
+            <tr>
+                <td id="montext">
+
+                </td>
+                <td id="montant">
+
+                </td>
+                <td>
+                    <button type="button" class="supp" id="monSupp">supprimer</button>
+                </td>
+            </tr>
+
+            <tr class="montr">
+
+              
+                <td class="montd">
+                     <a href="">
+                        <i class="fa-solid fa-circle-plus" id="moni"></i>
+                    </a> -->
+                    <!--<button type="submit" id="AddButton" >Ajouter revenus</button>
+
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+ -->
+
+
+
+
+
+
+        </table>
+
+
+      
+
+    </div>
+
+    
+    <div class="container1" id="macontainer1">
+        <table id="table1" class="maTable1">
+            <thead class="mythead1">
+                <th>TITRE</th>
+                <th>MONTANT</th>
+                <th>ACTION</th>
+            </thead>
+            <tbody class="monTableBody1">
+            </tbody>
+
+      
+
+                         
+
+            <tr class="montr">
+
+                <td class="montd">
+                    <!-- <a href="http://127.0.0.1:5502/depenses.html">
+                        <i class="fa-solid fa-circle-plus" id="moni"></i>
+                    </a> -->
+                    <button type="submit" id="AddButton1" >Ajouter revenus</button>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+
+
+
+
+
+
+
+        </table> <br><br><br>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        </table><br><br>
+
+
+      
+
+    </div>
+</div>
+
+
+
+</body>
+
+
+<script src="./script.js"></script>
+
+</html>
