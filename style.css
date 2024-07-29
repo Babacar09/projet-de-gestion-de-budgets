@@ -169,6 +169,7 @@ td{
         width: 100%;
         height: 800px;
     }
+ 
     form{
         width: auto;
         margin-left:0 ;
@@ -178,7 +179,7 @@ td{
     form, #montext{
         width: auto;
         margin-left:0 ;
-        height: 50PX;
+        
        font-size: 40PX;
     }
     form, #montant{
@@ -187,8 +188,8 @@ td{
         height: 50PX;
        font-size: 40PX;
     }
-    button, .validate{
-        font-size: 250PX;
+    button, #validate{
+        font-size: 20PX;
     }
     #modalContent{
         width: 50%;
@@ -444,6 +445,9 @@ button{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+
+
+
 .modalContent{
     background-color: #fefefe;
      margin:auto; 
@@ -529,4 +533,20 @@ button{
 }
 #monprixRevenus{
     font-size: 20PX;
+}
+.mesButtons{
+display: inline-flex;
+width: auto;
+height: auto;
+padding-left: 12PX;
+border: none;
+
+
+}
+.update{
+    margin-left: 12PX;
+
+}
+#monSupp2{
+    background: #340d41;
 }
